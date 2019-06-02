@@ -1,0 +1,28 @@
+{
+  "name": "rete-reorder-nodes-plugin",
+  "version": "0.1.0",
+  "description": "Rete.js plugin which orders nodes to front when clicked",
+  "main": "build/reorder-nodes-plugin.common.js",
+  "module": "build/reorder-nodes-plugin.esm.js",
+  "scripts": {
+    "build": "rete --build rete.config.js",
+    "build:dev": "rete --build rete.config.js --watch",
+    "prepublishOnly": "npm run build",
+    "prebuild": "npm run lint",
+    "lint": "tslint src/**.ts"
+  },
+  "author": {
+    "name": "Sebastian Reinhard",
+    "email": "sebastian@sebbert.me",
+    "url": "https://sebbert.me"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-eslint": "^10.0.1",
+    "rete": "^1.2.2",
+    "rete-cli": "0.6.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.3.3333"
+  }
+}

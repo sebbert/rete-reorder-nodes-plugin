@@ -1,0 +1,8 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "typedef": false,
+        "triple-equals": [true, "allow-null-check"],
+        "object-literal-sort-keys": false
+    }
+}

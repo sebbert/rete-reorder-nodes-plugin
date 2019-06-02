@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "allowJs": true,
+        "noEmit": true,
+        "strict": true,
+        "isolatedModules": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+    },
+    "include": ["src/"],
+}
