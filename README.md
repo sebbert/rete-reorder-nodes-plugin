@@ -2,6 +2,12 @@
 
 A rete.js plugin which moves the most recently clicked node to front.
 
+## Installation
+
+```
+npm install rete-reorder-nodes-plugin
+```
+
 ## Usage
 
 ```ts
