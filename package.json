@@ -5,7 +5,7 @@
   "main": "build/reorder-nodes-plugin.common.js",
   "module": "build/reorder-nodes-plugin.esm.js",
   "scripts": {
-    "build": "rete --build rete.config.js",
+    "build": "tsc --emitDeclarationOnly && rete --build rete.config.js",
     "build:dev": "rete --build rete.config.js --watch",
     "prepublishOnly": "npm run build",
     "prebuild": "npm run lint",
@@ -24,5 +24,6 @@
     "rete-cli": "0.6.0",
     "tslint": "^5.17.0",
     "typescript": "^3.3.3333"
-  }
+  },
+  "types": "types"
 }
