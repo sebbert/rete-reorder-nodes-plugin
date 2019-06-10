@@ -1,0 +1,10 @@
+src/
+node_modules/
+.vscode/
+.git/
+README.md
+rete.config.js
+tslint.json
+*.log
+.editorconfig
+.gitignore
