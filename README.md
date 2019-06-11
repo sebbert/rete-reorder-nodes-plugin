@@ -2,6 +2,8 @@
 
 A rete.js plugin which moves the most recently clicked node to front.
 
+![example](https://raw.githubusercontent.com/sebbert/rete-reorder-nodes-plugin/master/example.gif)
+
 ## Installation
 
 ```
